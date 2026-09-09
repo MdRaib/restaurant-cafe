@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <title>কাচ্চি ভাই — Taste of Traditional Kacchi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img id="navLogo" src="assets/logo.webp" alt="Restaurant logo">
+      </a>
+      <nav class="desktop-nav">
+        <a href="#home">হোম</a>
+        <a href="#menu">মেনু</a>
+        <a href="#about">আমাদের সম্পর্কে</a>
+        
+        <a href="#contact">যোগাযোগ</a>
+      </nav>
+      <button class="cart-btn" id="openCart">অর্ডার <span id="cartCount">0</span></button>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#home">হোম</a><a href="#menu">মেনু</a><a href="#about">আমাদের সম্পর্কে</a>
+      <a href="#contact">যোগাযোগ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow">স্বাদের ঐতিহ্য • প্রতিটি প্লেটে</span>
+        <h1 id="heroTitle">ঐতিহ্যের স্বাদ,<br><em>কাচ্চির ভালোবাসা</em></h1>
+        <p id="heroText">সুগন্ধি বাসমতি চাল, নরম মাংস এবং ঘরোয়া মসলার নিখুঁত সমন্বয়।</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">মেনু দেখুন</a>
+          <a href="#menu" class="btn btn-outline">অর্ডার করুন</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <div class="container intro-grid">
+        <div>
+          <span class="section-kicker">আমাদের বিশেষত্ব</span>
+          <h2 id="introTitle">স্বাদে ঐতিহ্য,<br>মানেই পার্থক্য</h2>
+        </div>
+        <p id="introText">প্রতিটি খাবার যত্ন নিয়ে প্রস্তুত করা হয়—যাতে আপনার প্রতিটি অর্ডারে থাকে ঘরের মতো স্বাদ এবং রেস্টুরেন্টের প্রিমিয়াম অভিজ্ঞতা।</p>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">আমাদের মেনু</span>
+            <h2>আজ কী খাবেন?</h2>
+          </div>
+          <div class="category-tabs" id="categoryTabs"></div>
+        </div>
+        <div class="food-grid" id="foodGrid"></div>
+      </div>
+    </section>
+
+    <section class="offer" id="offers">
+      <div class="container offer-card">
+        <div>
+          <span class="section-kicker">আজকের আয়োজন</span>
+          <h2 id="offerTitle">পরিবারের সাথে কাচ্চির আসর</h2>
+          <p id="offerText">পছন্দের খাবার কার্টে যোগ করুন এবং সরাসরি WhatsApp-এর মাধ্যমে অর্ডার পাঠান।</p>
+        </div>
+        <a href="#menu" class="btn btn-primary">অর্ডার করুন</a>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-image"><img src="assets/logo.webp" alt="Restaurant logo"></div>
+        <div>
+          <span class="section-kicker">আমাদের গল্প</span>
+          <h2 id="aboutTitle">ভালো খাবার, ভালো মুহূর্ত</h2>
+          <p id="aboutText">আমরা ঐতিহ্যবাহী কাচ্চি ও দেশি খাবারের স্বাদকে আধুনিক পরিবেশে তুলে ধরতে ভালোবাসি। মানসম্মত উপকরণ ও পরিচ্ছন্ন প্রস্তুতিই আমাদের অগ্রাধিকার।</p>
+          <div class="stats">
+            <div><strong>১০০%</strong><span>ফ্রেশ উপকরণ</span></div>
+            <div><strong>প্রতিদিন</strong><span>তাজা প্রস্তুতি</span></div>
+            <div><strong>স্বাদ</strong><span>ঐতিহ্যের প্রতিশ্রুতি</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-card">
+        <div><span class="section-kicker">যোগাযোগ</span><h2>আমাদের সাথে কথা বলুন</h2></div>
+        <div class="contact-details">
+          <a id="phoneLink" href="tel:+8801700000000">📞 +880 1700-000000</a>
+          <a id="emailLink" href="mailto:hello@example.com">✉️ hello@example.com</a>
+          <span id="addressText">📍 ঢাকা, বাংলাদেশ</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><img src="assets/logo.webp" alt="Logo" class="footer-logo"><p id="footerText">Taste of Traditional Kacchi</p></div>
+      <div class="footer-links"><a href="#menu">মেনু</a><a href="#about">আমাদের সম্পর্কে</a><a href="#contact">যোগাযোগ</a></div>
+      <p>© <span id="year"></span> <span id="footerBrand">কাচ্চি ভাই</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-backdrop" id="closeCart"></div>
+    <aside class="cart-panel">
+      <div class="cart-head"><h3>অর্ডার</h3><button id="closeCartBtn">×</button></div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-summary"><div><span>মোট</span><strong id="cartTotal">৳0</strong></div><p>অর্ডার দিতে আপনার নাম, ফোন ও ঠিকানা দিন। এরপর WhatsApp-এ অর্ডার পাঠানো হবে।</p><button id="checkoutBtn" class="btn btn-primary full-btn">WhatsApp-এ অর্ডার করুন</button></div>
+    </aside>
+  </div>
+
+  <div class="checkout-modal" id="checkoutModal" aria-hidden="true">
+    <div class="checkout-backdrop" id="closeCheckout"></div>
+    <div class="checkout-card">
+      <div class="checkout-head"><h3>অর্ডার সম্পন্ন করুন</h3><button id="closeCheckoutBtn">×</button></div>
+      <form id="checkoutForm">
+        <label>আপনার নাম<input name="name" required placeholder="নাম লিখুন"></label>
+        <label>মোবাইল নম্বর<input name="phone" required type="tel" placeholder="01XXXXXXXXX"></label>
+        <label>ডেলিভারি ঠিকানা<textarea name="address" required rows="3" placeholder="সম্পূর্ণ ঠিকানা লিখুন"></textarea></label>
+        <label>অতিরিক্ত নির্দেশনা (ঐচ্ছিক)<textarea name="note" rows="2" placeholder="যেমন: কম ঝাল"></textarea></label>
+        <div class="checkout-total"><span>অর্ডার মোট</span><strong id="checkoutTotal">৳0</strong></div>
+        <button class="btn btn-primary full-btn" type="submit">WhatsApp-এ অর্ডার পাঠান</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="site-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
