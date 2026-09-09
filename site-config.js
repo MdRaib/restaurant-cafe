@@ -65,7 +65,7 @@ const SITE_CONFIG = {
       name: "চিকেন কাচ্চি",
       category: "কাচ্চি",
       price: 260,
-      image: "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?auto=format&fit=crop&w=900&q=80",
+      image: "https://i.postimg.cc/R0Kx7CMF/1788936979616.jpg",
       description: "মসলাদার চিকেন ও সুগন্ধি চালের দারুণ সমন্বয়।",
       available: true,
       badge: "",
